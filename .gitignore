@@ -1,0 +1,14 @@
+# ignore all files in any directory named kit
+kit/
+
+# ignore local copy of w3.css style
+css/style.css
+
+# ignore codekit config
+config.codekit3
+
+.DS_Store
+.gitattributes
+credit-card-apply_backup.html
+*.codekit3
+config.codekit3
