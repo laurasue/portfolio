@@ -1,0 +1,172 @@
+html,
+body {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+h1 {
+	font-family: 'Averia Serif Libre', cursive;
+	font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: .02em;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Palanquin', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+a:active,
+a:hover {
+    outline-width: initial;
+}
+
+header {
+	margin-top: 50px;
+}
+
+header nav {
+	font-family: 'Averia Serif Libre', serif;
+	font-weight: 400;
+	letter-spacing: .04em;
+	font-size: 1.2em;
+}
+
+footer {
+	font-size: .8em;
+}
+
+footer a {
+	display: inline-block;
+	padding: 10px;
+	font-size: 32px;
+}
+
+footer a:active,
+footer a:hover {
+	color: #9b21a6;
+}
+
+.home a {
+	text-decoration: none;
+	display: block;
+	font-weight: 400;
+}
+
+.home a:active,
+.home a:hover {
+	outline: 2px solid #9b21a6;
+}
+
+.portfolio a {
+	color: #9b21a6;
+}
+
+.portfolio a:active,
+.portfolio a:hover {
+	color: #1026DF;
+}
+
+.portfolio h1 {
+	font-size: 2em;
+}
+
+.portfolio h2 {
+	font-size: 1.05em;
+	font-weight: 500;
+	letter-spacing: .06em;
+	text-transform: uppercase;
+	color: #5d445f;
+	margin: 30px 0 10px;
+}
+
+.portfolio iframe {
+	border: 1px solid #999;
+}
+
+.caption {
+	font-size: .8em;
+}
+
+
+/* Password page */
+
+.staticrypt-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.staticrypt-form {
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.staticrypt-form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.staticrypt-form .staticrypt-decrypt-button {
+    outline: 0;
+    background: #222;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.staticrypt-form .staticrypt-decrypt-button:hover, .staticrypt-form .staticrypt-decrypt-button:active, .staticrypt-form .staticrypt-decrypt-button:focus {
+    background: #333;
+}
+
+/* Screen reader and keyboard styles */
+
+.sr-only,
+.kb-only {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.kb-only:active,
+.kb-only:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}

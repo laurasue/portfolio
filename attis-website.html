@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US"><!-- specify language: http://www.w3.org/TR/html401/struct/dirlang.html#h-8.1 -->
+<head prefix="og: https://ogp.me/ns#"><!-- enable Open Graph: http://ogp.me/ -->
+
+<!-- charset & http-equiv may be set via response header: https://github.com/h5bp/html5-boilerplate/blob/master/doc/html.md#x-ua-compatible -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Laura Sue Design - UX/Visual designer</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="https://laurasue.com">
+<!-- optionally add more Open Graph metadata: http://ogp.me/#metadata -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- specify viewport: https://developers.google.com/speed/docs/insights/ConfigureViewport -->
+<!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+<!-- Enable styling differentation between JavaScript and non-JavaScript enabled browsers -->
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/custom-min.css" type="text/css" media="screen" />
+<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Palanquin:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="Shortcut Icon" type="image/ico" href="img/favicon.ico" />
+<script>(function (e) { e.className = e.className.replace('no-js', 'js'); }(document.documentElement));</script>
+<!-- Enable styling of HTML5 sectioning elements in legacy browsers. Simplified inline version of HTML5Shiv (https://github.com/aFarkas/html5shiv) for enhanced performance -->
+<!--[if lt IE 9]>
+<script>
+    (function (d, a) {
+        d.documentElement.className = 'lt-ie9'; var l = a.length; while(l--){ d.createElement(a[l]); }
+    }(document, ['HEADER', 'NAV', 'SECTION', 'FOOTER', 'ARTICLE', 'MAIN', 'FIGCAPTION', 'FIGURE', 'ASIDE']));
+</script>
+<![endif]-->
+
+<!-- Include stylesheets here. Concatenate & minify for performance: https://developers.google.com/speed/docs/insights/MinifyResources -->
+<script src="https://kit.fontawesome.com/6bdccf8239.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <a class="kb-only" href="#content">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="w3-row w3-content" style="max-width:1100px;" >
+
+    <div class="w3-container w3-quarter">
+      <a class="w3-button w3-mobile" href="index" rel="home">
+          <!-- link to home: http://microformats.org/wiki/rel-home -->
+          <img alt="Laura Sue Design" src="img/logo_laurasue.svg" onerror="this.src='logo_laurasue.png;'" width="125" height="60" />
+          <!-- vector image with bitmap fallback: https://twitter.com/scottjehl/status/369190249437483008 -->
+          <!-- specify image dimensions for performance: http://www.feedthebot.com/pagespeed/image-dimensions.html -->
+      </a>
+    </div>
+
+    <div class="w3-container w3-padding w3-threequarter">
+      <nav class="w3-right w3-padding w3-mobile">
+        <a href="index" class="w3-button w3-mobile">Portfolio</a>
+        <a href="about" class="w3-button w3-mobile">About</a>
+      </nav>
+    </div>
+
+  </header>
+
+  <!-- Page content -->
+  <main id="content" class="portfolio w3-padding">
+
+    <div class="w3-row w3-content w3-padding" style="max-width:700px">
+      <div class="w3-padding-32">
+        <h1>Attis Trading website</h1>
+        <p><i>The purpose of this project was to clarify the Attis brand, improve usability and reach analytic goals.</i></p>
+        <p>My task was to provide a clean, mobile-first experience for users wanting to know more about Attis. Analyzing user flow data told me that users simply wanted contact information. I prioritized the Attis locations plus a client-requested new feature of online ordering in the designs.</p>
+        <p>To add more clarity to their brand, I evolved their logo by adding an artful tagline under the Attis Trading Co logo. It was evident in the drop-off rates that users may not have been clear on what Attis was all about.</p>
+      </div>
+
+      <div class="w3-display-container">
+        <img src="img/attis/site_attis_mobile_1.png" alt="" style="width:100%"/>
+        <p class="caption w3-center">A mobile device with the Attis Trading locations page loaded on the screen.</p>
+      </div>
+
+      <div class="w3-padding-16">
+        <h2>My process</h2>
+        <p>I focused on getting users to the dispensary locations and positioning Attis as experts by leveraging their robust blog articles. Since their branding and color palettes were in transition, I took ideas from the interior of their dispensaries and used colors and textures that both complemented the brand and created a visual association for the user.</p>
+        <p>In Sketch I created a global artboard layout using guides that matched the Foundation 6 default columns so I could easily plan responsive blocks of content. I worked with the developer on handing off assets and styles from Sketch for his build.</p>
+        <p>Post-launch it was learned that the locator and order pages were indeed the most popular, and there was a significant increase in traffic both to the website and Attis’ Instagram feed.</p>
+      </div>
+
+    </div>
+
+    <div class="w3-row w3-content w3-padding" style="max-width:900px">
+      <div class="w3-display-container">
+        <img class="w3-border" src="img/attis/site_attis_desktop.jpg" alt="The Attis Trading homepage design" style="width:100%"/>
+        <p class="caption w3-center">This was the selected option for the Attis homepage.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-padding-16 w3-border-top">
+    <a href="https://www.linkedin.com/in/laurabentz"><i role="img" aria-label="My LinkedIn profile (external site)" class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/laurasue"><i role="img" aria-label="My GitHub profile (external site)" class="fab fa-github-square"></i></a>
+    <p>&copy; <script>document.write(new Date().getFullYear())</script> Laura Sue Design LLC</p>
+  </footer>
+
+</body>
+</html>
