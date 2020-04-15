@@ -103,6 +103,9 @@ footer a:hover {
 	font-size: .8em;
 }
 
+hr {
+  border-top: 1px solid #555;
+}
 
 /* Password page */
 
