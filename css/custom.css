@@ -6,6 +6,10 @@ body {
     line-height: 1.7;
 }
 
+a:focus {
+	outline: 2px solid #9b21a6;
+}
+
 h1 {
 	font-family: 'Averia Serif Libre', serif;
 	font-weight: 400;
@@ -29,11 +33,6 @@ h5,
 h6 {
     font-weight: 400;
     margin: 10px 0;
-}
-
-a:active,
-a:hover {
-    outline-width: initial;
 }
 
 header {
@@ -70,7 +69,8 @@ footer a:hover {
 
 .home a:active,
 .home a:hover {
-	outline: 2px solid #9b21a6;
+	outline: 2px solid #000;
+	background: #f1f1f1;
 }
 
 .portfolio a {
