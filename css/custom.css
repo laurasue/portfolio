@@ -35,6 +35,11 @@ h6 {
     margin: 10px 0;
 }
 
+strong {
+	font-family: 'Palanquin', sans-serif;
+    font-weight: 500;
+}
+
 header {
 	margin-top: 50px;
 }
