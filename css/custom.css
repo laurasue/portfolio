@@ -57,13 +57,16 @@ footer {
 
 footer a {
 	display: inline-block;
-	padding: 10px;
 	text-decoration: none;
+	border-bottom: 1px solid;
+	margin: 0 10px;
+	height: 4.4em;
 }
 
 footer a:active,
 footer a:hover {
 	color: #9b21a6;
+	border-bottom: 3px solid #9b21a6;
 }
 
 .fa-linkedin,
@@ -74,7 +77,6 @@ footer a:hover {
 
 footer span {
 	display: block;
-	border-bottom: 1px solid;
 }
 
 .home a {
