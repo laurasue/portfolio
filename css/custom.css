@@ -79,14 +79,26 @@ footer span {
 	display: block;
 }
 
-.home a {
+.home .intro a {
+	color: #9b21a6;
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+.home .intro a:active,
+.home .intro a:hover {
+	text-decoration: none;
+	border-bottom: 3px solid;
+}
+
+.home .w3-display-container a {
 	text-decoration: none;
 	display: block;
 	font-weight: 400;
 }
 
-.home a:active,
-.home a:hover {
+.home .w3-display-container a:active,
+.home .w3-display-container a:hover {
 	outline: 2px solid #000;
 	background: #f1f1f1;
 }
