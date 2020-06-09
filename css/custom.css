@@ -140,6 +140,10 @@ hr {
 	border-top: 1px solid #ccc;
 }
 
+w3-green, .w3-hover-green:hover {
+    background-color: #3D862D!important;
+}
+
 /* Password page */
 
 .staticrypt-page {
