@@ -140,7 +140,10 @@ hr {
 	border-top: 1px solid #ccc;
 }
 
-w3-green, .w3-hover-green:hover {
+/* Override success message color to meet WCAG AA 2.0 color contrast */
+
+.w3-green,
+.w3-hover-green:hover {
     background-color: #3D862D!important;
 }
 
