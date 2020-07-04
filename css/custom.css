@@ -140,6 +140,16 @@ hr {
 	border-top: 1px solid #ccc;
 }
 
+p.est {
+	font-size: .9em;
+	font-weight: 400;
+}
+
+p.est span {
+	color: #5d445f;
+	font-weight: 700;
+}
+
 /* Override success message color to meet WCAG AA 2.0 color contrast */
 
 .w3-green,
