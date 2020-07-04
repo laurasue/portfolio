@@ -83,103 +83,83 @@
         <h2>Project kickoff</h2>
         <p>There are several core goals of this design effort.</p>
         <ol><li>First, reduce the time a user spends filling out a digital application for an instant line of credit.</li>
-        <li>Second, make the entire experience accessible.</li>
-        <li>Third, provide a modern, consistent, and customizable platform for partners and co-brands.</li></ol>
-        <p>For perspective, the following image is the original application form.</p>
+        <li>Second, make the experience accessible.</li>
+        <li>Third, provide a modern, consistent, and customizable platform for partners.</li></ol>
+        <p>For perspective, the following image is the legacy application.</p>
       </div>
 
       <div class="w3-display-container">
         <img src="img/apply/original.png" alt="The current state of the application platform, and a text input with keyboard focus showing disappearing placeholder text and two different tooltips covering the view of the fields above and below." style="width:100%"/>
-        <p class="caption w3-center">The original credit card application form for partners and co-brands. At first glance one will notice some usability and accessibility issues.</p>
+        <p class="caption w3-center">The legacy credit card application form for partners. There are noticable usability and accessibility issues, like multiple tooltips covering text inputs, and error messages appearing in the wrong context, and placeholder text used as field labels.</p>
       </div>
 
       <div class="w3-padding-16">
-        <p>To kickoff the project, a design sprint was held with stakeholders. Afterward, my role was to amalgamate the voted-for design ideas and create low-fidelity screens for a prototype we would test in a usability study. I collaborated with the customer experience and research teams to define the parameters for the test.</p>
+        <p>To kickoff the project, a design sprint was held with stakeholders. I amalgamated the voted-for design ideas and created low-fidelity screens for a prototype we would test in a usability study. I collaborated with the customer experience and research teams to define the parameters for the test.</p>
       </div>
 
       <div class="w3-display-container">
         <img src="img/apply/freehand_5_1.jpg" alt="The InVision Freehand board where stakeholders sketched screens based on their individual interpretation of the How Might We statement we had come up with in the design sprint." style="width:100%"/>
-        <p class="caption w3-center">A snapshot of the InVision Freehand board used for the design sprint sketches.</p>
+        <p class="caption w3-center">The InVision Freehand board used for the design sprint sketches, with roughly five stakeholder sketches of ideas.</p>
       </div>
     </div>
 
     <div class="w3-row w3-content w3-padding" style="max-width:1100px">
       <div class="w3-display-container">
-        <img src="img/apply/lo-fi_app_screens.png" alt="" style="width:100%"/><p class="caption w3-center">Low-fidelity screens used in the test prototype.</p>
+        <img src="img/apply/lo-fi_app_screens.png" alt="" style="width:100%"/><p class="caption w3-center">Low-fidelity screens used in the test prototype, showing the selection of a card art option, the full credit card application, example accessibile error handling, and a modal with card reward details.</p>
       </div>
     </div>
 
     <div class="w3-row w3-content w3-padding" style="max-width:700px">
       <div class="w3-padding-16">
         <h2>Wireframes</h2>
-        <p>After some conversations, compromises and tweaks based on our usability test results, I wireframed the first release MVP product in Axure. I studied hundreds of pages of business and validation rules on the current state application platform to understand the various products, partner nuances, and data mapping.</p>
+        <p>I studied hundreds of pages of business and validation rules on the legacy platform to understand the product, partner, and entry point variations. I also designed a logical framework of content mapping, working closely with the system architect.</p>
 
-        <p>Since the project's inception, I have created and managed over 50 wireframes for 80+ features, which include functional, interaction, and accessibility rules. My time is split between the refinement of "work-ahead" features, and supporting four development teams on their current work.</p>
+        <p>Since the project's inception, I have created and managed over 50 wireframes for 80+ features, which include functional, interaction, and accessibility rules. I support four development teams on delivery.</p>
       </div>
 
       <div class="w3-display-container">
         <img class="w3-border" src="img/apply/wires.png" alt="" style="width:100%"/>
-        <p class="caption w3-center">An Axure wireframe for the "Final touches" feature of the new platform.</p>
+        <p class="caption w3-center">An Axure wireframe for a feature where the user may optionally add an authorized user and/or balance transfer before submitting.</p>
       </div>
 
       <div class="w3-padding-16">
         <h2>Visual Design</h2>
-        <p>For the UI, I began with assembling a set of patterns derived from the bank's design system, called "Shield". The challenge was to leverage Shield, allow for partner color customization, and blend as seamlessly as possible with partner brands.</p>
-        <p>I surveyed our partners to understand what might be pleasing to them beyond their customization options.</p>
+        <p>For the UI, I started by assembling a set of patterns derived from the bank's design system (Shield). The challenge was to leverage Shield, but also consider how well Shield plays with the variations of many different brands, with the aim of blending as seamlessly as possible.</p>
+        <p>I surveyed some of our partners to understand what might work well for everyone.</p>
       </div>
     </div>
 
     <div class="w3-row w3-content w3-padding" style="max-width:1100px">
       <div class="w3-display-container">
         <img class="w3-border" src="img/apply/partner-comparison.png" alt="" style="width:100%"/>
-        <p class="caption w3-center">A selection of partner form styles. Harley-Davidson, Fidelity, and REI are three examples of partners that use a more traditional, default "boxy" feel.</p>
+        <p class="caption w3-center">A selection of partner form styles. Harley-Davidson, Fidelity, and REI are three examples of partners that use a more traditional, default "boxy" feel for text inputs.</p>
       </div>
     </div>
 
     <div class="w3-row w3-content w3-padding" style="max-width:700px">
       <div class="w3-padding-16">
-        <p>In addition to partner customization, I wanted to also look at accessibility. Shield form elements feature floating labels, which have been debated in the accessibility space due to the movement of labels and smaller label text on focus.</p>
-        <p>Floating labels are also a specific style and arguably "fancy", and I sensed that the pattern might be too <i>outside of the box</i> for the partners. I ended up going with a more timeless box style for inputs and dropdowns, but used or adapted Shield for labeling, radio groups, checkboxes, error handling, and headings.</p>
-        <h2>Learning</h2>
-        <p>Managing a balance in decision-making in the midst of contending forces has been an ongoing challenge. I've had to negotiate really tough compromises through this work. Questions I regularly ask myself:</p>
-        <ul>
-          <li>Can I align with the bank's design system without having the dev support to do so?</li>
-          <li>Should alignment be weighted more toward the bank, or to the partners? (I represent the bank, but the partners are our clients.)</li>
-          <li>How will I create an accessible experience if I lack the traditional resources to achieve that?</li>
-          <li>Where can I learn to be a better communicator and a better designer when it comes to negotiating user needs and compliance needs?</li>
-        </ul>
+        <p>In addition to partner customization, I considered accessibility. Shield form elements contain floating labels, which have been debated in the accessibility space due to the movement of labels and smaller label text on focus.</p>
+        <p>Floating labels are also a distinct style, and I sensed that the pattern might be too <i>outside of the box</i> for the partners. I proposed going with a more timeless box style for inputs and dropdowns, and stakeholders weighed in that this was best for the partners.</p>
       </div>
     </div>
 
     <div class="w3-row w3-content w3-padding" style="max-width:1100px">
       <div class="w3-display-container">
         <img class="w3-border" src="img/apply/form-styles.png" alt="" style="width:100%"/>
-        <p class="caption w3-center">A Sketch brainstorming session: On the left I am playing with the Shield components for a section of the application, and on the right I'm showing the adaptation of Shield to be more of a traditional look.</p>
+        <p class="caption w3-center">A Sketch brainstorming session: On the left I am playing with the unaltered Shield components for a section of the application, and on the right I'm showing the adaptation of Shield to be more of a traditional look and behavior.</p>
       </div>
     </div>
 
     <div class="w3-row w3-content w3-padding" style="max-width:700px">
       <div class="w3-padding-16">
         <h2>Prototyping</h2>
-        <p>The MVP release is the digital instant credit line to use immediately in a retail location. <a aria-describedby="new-window" href="https://invis.io/DSUDGBO96EU" target="_blank">View the REI instant credit prototype in InVision <i class="fas fa-external-link-alt"></i></a>.</p>
+        <p>The instant credit line (to be used immediately in a retail location) makes up the MVP release. <a aria-describedby="new-window" href="https://invis.io/DSUDGBO96EU" target="_blank">View the REI instant credit prototype in InVision <i class="fas fa-external-link-alt"></i></a>.</p>
       </div>
     </div>
 
     <div class="w3-row w3-content w3-padding" style="max-width:1100px">
       <div class="w3-display-container">
-        <img src="img/apply/mobile_ila.png" alt="" style="width:100%"/><p class="caption w3-center">The REI instant line credit card application experience. Shown here are the card art selector, the application itself, an approval screen, and the REI virtual card.</p>
-      </div>
-    </div>
-
-    <div class="w3-row w3-content w3-padding" style="max-width:700px">
-      <div class="w3-padding-16">
-        <h2>Evolving a process, and growing with a team</h2>
-        <p>Throughout my journey in this work, I've learned that there are many layers of complexity in supporting UX work and development teams in the financial services industry. When you think about banking, it's safe to assume that some groups struggle to keep up with the cutting edge not only in how the end user experiences their products, but also - and more importantly - <i>how</i> those products are built.</p>
-        <p>I've been with this group during the enterprise adoption of SAFe agile, and in our early trainings we were alerted that it may be an uncomfortable few years before things settle down. While adapting to the new cadence, the process of change highlighted some glaring gaps of inefficiency along the way. Wherever possible, I wanted to close those gaps in order to serve as a better support for the teams.</p>
-        <p>During the winter of 2019, <strong>I leveraged my knowledge of human-centered design</strong> to  organize a slight overhaul of our design artifacts. We were detailing too much, saying more than we needed, and versioning too elaborately. I wanted to say less — only what we needed to say — but also be sure it was what the developers and testers found useful.</p>
-        <p>I interviewed and collected information from various team members on their experiences. The story that emerged helped me <strong>reduce the number of artifacts the teams needed to reference by an average of 30%</strong> (depending on the feature).</p>
-        <p>I also was the driving force behind a brand new super-organized Sharepoint for folks to get whatever they needed on their own. This all may sound a bit odd and not very revolutionary, but these things did not exist, and as a developer in our group, the process of getting what you needed was ineffectual and cumbersome at best.</p>
-        <p>The teams now operate with a bit more ease.</p>
+        <img src="img/apply/mobile_ila.png" alt="" style="width:100%"/><p class="caption w3-center">The REI instant line credit card application experience, including the card art selector, the application itself, an approval screen, and the REI virtual card.</p>
       </div>
     </div>
 
