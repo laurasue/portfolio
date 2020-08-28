@@ -150,6 +150,11 @@ p.est span {
 	font-weight: 700;
 }
 
+p.date {
+	text-transform: capitalize;
+	font-size: .9em;
+}
+
 /* Override success message color to meet WCAG AA 2.0 color contrast */
 
 .w3-green,
