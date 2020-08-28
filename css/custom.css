@@ -155,6 +155,10 @@ p.date {
 	font-size: .9em;
 }
 
+.blog li {
+	margin-bottom: .5em;
+}
+
 /* Override success message color to meet WCAG AA 2.0 color contrast */
 
 .w3-green,
