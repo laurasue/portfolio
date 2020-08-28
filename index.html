@@ -15,12 +15,12 @@
 	<meta name="description" content="The UX, visual, and digital design portfolio of a gal in Portland, Oregon.">
 	<meta name="keywords" content="digital design, a11y, wcag, accessibility, accessible, front-end, ux, user experience, design">
 	<meta property="og:site_name" content="Laura Sue Design - UX/Visual designer"/>
-	<meta property="og:description" content="The UX, visual, and digital design portfolio of a gal in Portland, Oregon."/>
+	<meta property="og:description" content="The UX and digital design portfolio of a gal in Portland, Oregon."/>
 	<meta property="og:image" content="img/logo_laurasue.png">
 	<meta property="og:url" content="https://laurasue.com">
 	<meta property="og:type" content="website"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- specify viewport: https://developers.google.com/speed/docs/insights/ConfigureViewport -->
-	<meta name="robots" content="noindex">
+	<meta name="robots" content="index, follow">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="css/custom-min.css" type="text/css" media="screen" />
 	<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Palanquin:wght@300;400;500&display=swap" rel="stylesheet">
@@ -48,7 +48,7 @@
 
     <div class="w3-container w3-quarter">
       <a class="w3-button w3-mobile" href="/" rel="home">
-          <img alt="Laura Sue Design" src="img/logo_laurasue.svg" onerror="this.src='logo_laurasue.png;'" width="125" height="60" />
+          <img alt="Laura Sue Design" src="img/logo_laurasue.svg" onerror="this.src='img/logo_laurasue.png;'" width="125" height="60" />
           <!-- vector image with bitmap fallback: https://twitter.com/scottjehl/status/369190249437483008 -->
       </a>
     </div>
@@ -57,6 +57,7 @@
       <nav class="w3-right w3-padding w3-mobile">
         <a href="/" class="w3-button w3-mobile">Portfolio</a>
         <a href="about" class="w3-button w3-mobile">About</a>
+        <a href="/blog" class="w3-button w3-mobile">Blog</a>
       </nav>
     </div>
 
@@ -142,7 +143,7 @@
 	<div class="w3-content">
 		<a aria-describedby="new-window" href="https://www.linkedin.com/in/laurabentz" target="_blank">
 	    	<i aria-hidden="true" class="fab fa-linkedin"></i>
-	    	<span>My LinkedIn profile <i class="fas fa-external-link-alt"></i></span>
+	    	<span>My LinkedIn profile <i aria-describedby="new-window" class="fas fa-external-link-alt"></i></span>
 	    </a>
 	    <a aria-describedby="new-window" href="https://github.com/laurasue" target="_blank">
 	    	<i aria-hidden="true" class="fab fa-github-square"></i>
