@@ -79,6 +79,10 @@ footer span {
 	display: block;
 }
 
+.home .intro {
+	min-height: 300px;
+}
+
 .home .intro a {
 	color: #9b21a6;
 	text-decoration: none;
